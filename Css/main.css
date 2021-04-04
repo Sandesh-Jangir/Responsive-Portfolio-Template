@@ -1,0 +1,65 @@
+
+header{
+    background: var(--main-bg-color);
+    height: 100vh;
+    clip-path: polygon(0% 0%, 0% 80%, 100% 100%, 100% 0%);
+}
+
+
+h1.text{
+    font-size: 4em;
+    font-weight: 500;
+    color: var(--secondry-clr);
+    animation: Appear 2s forwards;
+}
+
+.content-header{
+    padding-top: 5%;
+    margin-left: 20vw;
+}
+.wrapper{
+    margin-top: 145px;
+    margin-bottom: 50px;
+    color: white;
+}
+.grid-item{
+    background: var(--main-color);
+}
+.grid-item h1{
+    font-weight: 300;
+}
+.main-cont{
+    background: var(--main-color);
+    grid-area: box1;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main-cont h1{
+    font-weight: 300;
+    margin: 10px 0px;
+}
+
+.main-cont p{
+    font-size: 17px;
+    margin: 10px 0px;
+}
+
+.main-cont .btn-group button{
+    color: var(--secondry-clr);
+    margin: 10px 0px;
+}
+
+.main-cont .btn-group button:hover,
+.main-cont .btn-group button:focus{
+    color: var(--main-color);
+}
+
+footer{
+    background: var(--main-color);
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px 0px;
+}
